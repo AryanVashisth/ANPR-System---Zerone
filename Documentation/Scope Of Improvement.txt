@@ -1,0 +1,8 @@
+SCOPE OF IMPROVEMENT
+
+1. More accurate datasets aren't publically available as they contain sensitive information(Vehicle owner's License Plate and other details).
+2. Manually training one is a tedious task. The Ones available are proprietary information.
+
+
+
+Sci-kit Learn

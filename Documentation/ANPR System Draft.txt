@@ -1,0 +1,34 @@
+ANPR SYSTEM
+
+//UPLOAD IMAGE OF CAR
+
+//FOR DETECTION
+
+-we have used a classifier - haar cascade
+haar cascade is a ML based model which is trained on tons of dataset and hence can detect objects from an image. In our case, it will detect number plate from the input image.
+-you can use YOLO as well, but we have used Haarcascade for simplification of code.
+
+we can create extra utilities by making a dictionary of all state with codes.
+
+//FOR CONVERSION
+
+image reading = cv2(Open CV computer vision library/Most powerful/contains 1000s of algorithms for identificication/Built in C, C++
+
+we have used techniques like gray conversion for converting the input image into grayscale and then performing required operations
+making black and white image.
+
+DETECTION:
+1.1,4 good neighbour values for number plate detection
+
+#Cropping number plate ->changing brightness and threshhold/sharpening
+-using dilate and erode of cv2 then converting again to b/w
+-applying threshold
+
+//FOR RECOGNITION
+-you can use deep learning, CNN etc
+-we are using pre-trained OCR engine built by open source contributors
+-using "image_to_string " to convert all content into text
+
+- use string processing to eliminate the extra characters
+//FOR DISPLAY
+ 
